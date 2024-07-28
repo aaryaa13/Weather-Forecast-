@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+    background-size: cover; /* Ensure the image covers the whole background */
+    
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background: rgb(245, 243, 115);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 4;
+
+}
+
+.weather-info input, .weather-info button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #0b0b0b;
+    border-radius: 4px;
+    
+}
+
+#weather-result {
+    margin-top: 20px;
+}
+.video-container video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 110vw;
+    z-index: 1; /* Ensure the video stays in the background */
+
+    overflow: hidden;
+}
+
